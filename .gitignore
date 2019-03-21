@@ -1,0 +1,28 @@
+# Dev assets
+npm-debug.log
+/.phpintel/*
+.vagrant
+/html
+yarn-error.log
+/node_modules
+
+# Various IDE &#038; OS files that should never be committed
+.DS_Store
+*.swp
+*.lock
+__MACOSX
+.idea
+/nbproject/*
+.project
+.buildpath
+.thumbs
+Thumbs.db
+build.properties
+/.project
+/.settings
+/.buildpath
+/_notes/*
+/*.sql
+/*.sublime-project
+/*.sublime-workspace
+/.brackets.json

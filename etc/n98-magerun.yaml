@@ -1,0 +1,9 @@
+autoloaders:
+  DbMigration: %root%/vendor/gravytrain/db-migration/src
+
+commands:
+  customCommands:
+  - DbMigration\TestCommand
+
+  DbMigration\TestCommand:
+    bar: foo

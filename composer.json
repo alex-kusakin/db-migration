@@ -1,0 +1,14 @@
+{
+    "name": "gravytrin/db-migration",
+    "type": "library",
+    "version": "0.0.1",
+    "license": "OSL-3.0",
+    "autoload": {
+        "psr-4": {
+            "DbMigration\\": "src/DbMigration"
+        }
+    },
+    "scripts": {
+        "post-update-cmd": "DbMigration\\TestCommand::setupConfig"
+    }
+}
